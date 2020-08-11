@@ -10,9 +10,9 @@ class Player {
         while (true) {
             int heighest = 0; 
             int index = 0;
-            for (int i = 0; i  8; i++) {
+            for (int i = 0; i < 8; i++) {
                 int mountainH = in.nextInt();  
-                if (mountainH  heighest){
+                if (mountainH > heighest){
                     heighest = mountainH;
                     index = i;
                 }
